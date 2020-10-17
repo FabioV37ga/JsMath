@@ -1,0 +1,83 @@
+@font-face{
+    src: url('../font/lemon.otf');
+    font-family: 'lemon';
+}
+
+.main__logo img {
+    width: 450px
+}
+
+.main__start-list{
+    margin-top: 20px;
+}
+.main__start-list select{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    outline: 0
+}
+
+.main__start-list select:hover,.main__start-list select:focus{
+    border: 2px solid black
+}
+
+.main__start-list label{
+    margin: 4px 5px 0 0 
+}
+
+.main__numbers {
+    align-items: center;
+}
+
+.__number-1, .__number-2 {
+    margin: 0 10px 0 10px;
+}
+
+.user-input {
+    margin-left: 10px;
+    outline: 0;
+    text-align:center;
+    width:100px
+}
+
+.user-input:hover, .user-input:focus {
+    border: 2px solid black;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'lemon';
+}
+
+button:hover, button:focus {
+    background: black;
+    color: white;
+    transition: .4s;
+}
+
+.start-button{
+    padding: 10px 20px !important
+}
+.main__score{
+    margin-top: -30px
+}
+.next-button{
+    margin-top: 20px
+}
+.voltar a{
+    text-decoration: none;
+    color: black
+}
+.voltar a:hover, .voltar a:focus{
+    background: black;
+    color: white;
+    transition: .4s;
+}
+.voltar{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: calc((100% - 66px)/2);
+    
+}
+

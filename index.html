@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsMath 2.0</title>
+
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/utility.css">
+</head>
+
+<body>
+    <main>
+        <section class="main">
+            <div class="voltar centered">
+                <a href="" class="box">Voltar</a>
+            </div>
+            <div class="main__logo centered">
+                <img src="src/img/MainLogo.png" alt="Logotipo JsMath" class="imagem">
+            </div>
+            <div class="main__score centered">
+                <p class="main__score--content opacity-0">Pontuação: 0</p>
+            </div>
+            <div class="main__start centered">
+                <button class="start-button box" onclick="videoGame()">Iniciar</button>
+            </div>
+            <div class="main__start-list centered">
+                <label for="dificuldade">Selecione a dificuldade:</label>
+                <select id="dificuldade">
+                    <option value="facil">Fácil</option>
+                    <option value="medio">Médio</option>
+                    <option value="dificil">Difícil</option>
+                </select>
+            </div>
+            <script src="src/js/game.js"></script>
+            <div class="main__numbers centered opacity-0 out-screen">
+                <span class="main__numbers--content __number-1 box"></span>
+                <span class="main__numbers--content">+</span>
+                <span class="main__numbers--content __number-2 box"></span>
+                <span class="main__numbers--content">=</span>
+                <input type="text" class="user-input box notEnter" placeholder="Digite aqui">
+            </div>
+            <div class="main__text-log centered">
+                <p class="text-log"></p>
+            </div>
+            <div class="next centered">
+                <p class="next-button box opacity-0">Aperte ENTER para prosseguir</p>
+            </div>
+        </section>
+    </main>
+    <script src="src/js/startGame.js"></script>
+    
+
+</body>
+
+</html>

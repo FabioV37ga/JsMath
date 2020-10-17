@@ -1,0 +1,35 @@
+.centered{
+    display: flex;
+    justify-content: center;
+}
+.opacity-0{
+    opacity: 0;
+}
+.out-screen{
+    margin-right: 700rem;
+}
+
+.vertical-bar{
+    margin: 0 20px 0 20px;
+    opacity: 50%
+}
+.box{
+    border-radius: 8px;
+    padding: 5px 8px;
+    border: 1px solid black;
+    background: white
+}
+.some{
+    opacity: 0;
+    transition: 1s;
+}
+.aparece{
+    opacity: 100;
+    transition: 1s;
+}
+.correct{
+    color: green
+}
+.incorrect{
+    color: tomato;
+}
